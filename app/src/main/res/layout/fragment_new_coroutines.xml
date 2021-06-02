@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.NewCoroutinesFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_data_user_newCoroutines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="serif"
+                android:padding="8dp"
+                android:textSize="20sp"
+                tools:text="100%" />
+
+            <Button
+                android:id="@+id/button_download_newCoroutines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="monospace"
+                android:text="Download User Data" />
+
+            <TextView
+                android:id="@+id/tv_clicked_times_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="serif"
+                android:padding="8dp"
+                android:textSize="20sp"
+                tools:text="100%" />
+
+            <Button
+                android:id="@+id/button_start_newCoroutines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="monospace"
+                android:backgroundTint="#AD1457"
+                android:text="Start" />
+
+            <TextView
+                android:id="@+id/tv_async_function_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="serif"
+                android:padding="8dp"
+                android:textSize="20sp"
+                tools:text="100%" />
+
+            <Button
+                android:id="@+id/button_async_newCoroutines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="monospace"
+                android:backgroundTint="@color/teal_700"
+                android:text="Start Async" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:indeterminateTint="@color/purple_500"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</layout>
